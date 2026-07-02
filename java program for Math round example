@@ -1,0 +1,9 @@
+
+public class Mathround_example{
+    public static void main (String[] args){
+        double a = 5.8;
+        double b = 10.4;
+        System.out.println(Math.round(a));
+        System.out.println(Math.round(b));
+    }
+}
