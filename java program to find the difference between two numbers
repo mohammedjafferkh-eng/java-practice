@@ -1,0 +1,9 @@
+public class Difference{
+    public static void main(String[] args ){
+        int a = 45;
+        int b = 12;
+        int diff;
+        diff = a - b;
+        System.out.println("The difference of two numbers is: " + diff);
+    }   
+}
