@@ -1,0 +1,12 @@
+public class Long_base_exponent{
+public static void main(String[] args){
+long base = 10 ;
+int exponent = 3 ;
+long result  =1 ;
+int  i ;
+for (i=0; i < exponent; i++){
+result*=base;
+}
+System.out.println(result);
+}
+}
