@@ -1,0 +1,18 @@
+public class Traffic_signal{
+  public static void main(String[] args ){
+  String light = "red";
+  switch (light){
+    case "red"  :
+      System.out.println("Stop");
+      break;
+      case "yellow" :
+        System.out.println("Get ready");
+        break;
+        case "green"  : 
+        System.out.println("Go");
+        break;
+        default:
+        System.out.println("wait until next signal ");
+  }
+  }
+}
