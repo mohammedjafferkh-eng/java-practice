@@ -1,0 +1,11 @@
+public class Passbyvalue{
+    public static void main(String [] args){
+        int x = 20;
+        modifyValue(x);
+        System.out.println(x);
+    }
+    public static void modifyValue(int Value){
+        Value = 20;
+        
+    }
+}
