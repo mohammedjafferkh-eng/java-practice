@@ -1,0 +1,14 @@
+public class PassByValueExample{
+    public static void modify(MyObject obj){
+         obj.value = 20;
+    }
+    public static void main(String[] args){
+      MyObject obj = new MyObject(60);
+      modify(obj);
+      System.out.println(obj.value);
+}
+}
+class MyObject{
+    int value;
+    MyObject(int v) {value = v ;}
+}
